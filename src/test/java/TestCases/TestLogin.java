@@ -33,7 +33,7 @@ public class TestLogin {
 		h.clickLogin();
 		LogInPage p=PageFactory.initElements(driver,LogInPage.class);
 	p.login();
-	
+	System.out.println("logged in");
 	Dashboard d=PageFactory.initElements(driver,Dashboard.class);
 	Assert.assertTrue(d.verifylogin());
 
