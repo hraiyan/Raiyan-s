@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test1(failed)" parallel="none">
+    <classes>
+      <class name="TestCases.TestHome">
+        <methods>
+          <include name="setup"/>
+          <include name="packup"/>
+        </methods>
+      </class> <!-- TestCases.TestHome -->
+      <class name="TestCases.TestLogin">
+        <methods>
+          <include name="checklogin"/>
+          <include name="packup"/>
+          <include name="packup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestLogin -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
