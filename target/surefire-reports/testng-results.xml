@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37136" started-at="2017-05-14T04:14:52Z" finished-at="2017-05-14T04:15:30Z">
+  <suite name="Suite" duration-ms="101714" started-at="2017-05-20T13:12:07Z" finished-at="2017-05-20T13:13:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37136" started-at="2017-05-14T04:14:52Z" finished-at="2017-05-14T04:15:30Z">
+    <test name="Test" duration-ms="101714" started-at="2017-05-20T13:12:07Z" finished-at="2017-05-20T13:13:49Z">
       <class name="TestCases.TestLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestLogin@10683d9d]" name="setup" is-config="true" duration-ms="18945" started-at="2017-05-14T09:45:00Z" finished-at="2017-05-14T09:45:19Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestLogin@3fc2959f]" name="setup" is-config="true" duration-ms="25493" started-at="2017-05-20T18:42:42Z" finished-at="2017-05-20T18:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checklogin()[pri:0, instance:TestCases.TestLogin@10683d9d]" name="checklogin" duration-ms="8098" started-at="2017-05-14T09:45:19Z" finished-at="2017-05-14T09:45:27Z">
+        <test-method status="PASS" signature="checklogin()[pri:0, instance:TestCases.TestLogin@3fc2959f]" name="checklogin" duration-ms="37522" started-at="2017-05-20T18:43:08Z" finished-at="2017-05-20T18:43:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checklogin -->
       </class> <!-- TestCases.TestLogin -->
       <class name="TestCases.TestHome">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestHome@5bda8e08]" name="setup" is-config="true" duration-ms="7400" started-at="2017-05-14T09:44:52Z" finished-at="2017-05-14T09:45:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestHome@1e800aaa]" name="setup" is-config="true" duration-ms="28469" started-at="2017-05-20T18:42:08Z" finished-at="2017-05-20T18:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:TestCases.TestHome@5bda8e08]" name="checkTitle" duration-ms="77" started-at="2017-05-14T09:45:00Z" finished-at="2017-05-14T09:45:00Z">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:TestCases.TestHome@1e800aaa]" name="checkTitle" duration-ms="6129" started-at="2017-05-20T18:42:36Z" finished-at="2017-05-20T18:42:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestHome@5bda8e08]" name="packup" is-config="true" duration-ms="1616" started-at="2017-05-14T09:45:27Z" finished-at="2017-05-14T09:45:29Z">
+        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestHome@1e800aaa]" name="packup" is-config="true" duration-ms="2406" started-at="2017-05-20T18:43:45Z" finished-at="2017-05-20T18:43:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- packup -->
-        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestLogin@10683d9d]" name="packup" is-config="true" duration-ms="977" started-at="2017-05-14T09:45:29Z" finished-at="2017-05-14T09:45:30Z">
+        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestLogin@3fc2959f]" name="packup" is-config="true" duration-ms="1150" started-at="2017-05-20T18:43:48Z" finished-at="2017-05-20T18:43:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- packup -->

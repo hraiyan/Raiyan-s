@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23841" started-at="2017-05-14T04:09:18Z" finished-at="2017-05-14T04:09:42Z">
+  <suite name="Suite" duration-ms="12278" started-at="2017-05-14T16:37:24Z" finished-at="2017-05-14T16:37:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23841" started-at="2017-05-14T04:09:18Z" finished-at="2017-05-14T04:09:42Z">
-      <class name="TestCases.TestLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestLogin@60015ef5]" name="setup" is-config="true" duration-ms="6881" started-at="2017-05-14T09:39:24Z" finished-at="2017-05-14T09:39:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checklogin()[pri:0, instance:TestCases.TestLogin@60015ef5]" name="checklogin" duration-ms="8249" started-at="2017-05-14T09:39:31Z" finished-at="2017-05-14T09:39:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checklogin -->
-      </class> <!-- TestCases.TestLogin -->
+    <test name="Test" duration-ms="12278" started-at="2017-05-14T16:37:24Z" finished-at="2017-05-14T16:37:37Z">
       <class name="TestCases.TestHome">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestHome@11fc564b]" name="setup" is-config="true" duration-ms="6255" started-at="2017-05-14T09:39:18Z" finished-at="2017-05-14T09:39:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestHome@68567e20]" name="setup" is-config="true" duration-ms="9463" started-at="2017-05-14T22:07:24Z" finished-at="2017-05-14T22:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:TestCases.TestHome@11fc564b]" name="checkTitle" duration-ms="90" started-at="2017-05-14T09:39:24Z" finished-at="2017-05-14T09:39:24Z">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:TestCases.TestHome@68567e20]" name="checkTitle" duration-ms="476" started-at="2017-05-14T22:07:34Z" finished-at="2017-05-14T22:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestHome@11fc564b]" name="packup" is-config="true" duration-ms="1458" started-at="2017-05-14T09:39:39Z" finished-at="2017-05-14T09:39:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- packup -->
-        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestLogin@60015ef5]" name="packup" is-config="true" duration-ms="873" started-at="2017-05-14T09:39:41Z" finished-at="2017-05-14T09:39:42Z">
+        <test-method status="PASS" signature="packup()[pri:0, instance:TestCases.TestHome@68567e20]" name="packup" is-config="true" duration-ms="2286" started-at="2017-05-14T22:07:34Z" finished-at="2017-05-14T22:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- packup -->

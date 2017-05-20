@@ -1,0 +1,7 @@
+ApplicationPages\LogInPage.class
+DataProvider\ConfigDataProvider.class
+DataProvider\ExcelDataProvider.class
+ApplicationPages\Dashboard.class
+Factory\BrowserProviderFactory.class
+Factory\DataProviderFactory.class
+ApplicationPages\HomePage.class
